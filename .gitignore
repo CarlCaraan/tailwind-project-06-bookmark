@@ -1,0 +1,7 @@
+/vscode
+.DS_Store
+/node_modules
+# /dist
+
+# ignore code scanning from package-lock
+package-lock.json

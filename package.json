@@ -1,0 +1,15 @@
+{
+  "name": "simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "Simple Tailwind Starter Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/assets/css/input.css -o ./dist/assets/css/main.css",
+    "watch": "tailwindcss -i ./src/assets/css/input.css -o ./dist/assets/css/main.css --watch"
+  },
+  "author": "Carl Caraan",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
