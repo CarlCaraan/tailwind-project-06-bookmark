@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 ::selection {
-  @apply bg-softRed;
+  @apply bg-softBlue;
 }
 @media screen(lg) {
   .bg-hero {
