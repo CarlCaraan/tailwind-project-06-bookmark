@@ -40,8 +40,26 @@
                     Login
                 </a>
             </div>
+            <!-- Hamburger Button -->
+            <button id="menu-btn" class="hamburger z-30 block focus:outline-none 
+            md:hidden">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
         </div>
         <!-- End Flex Container for Navlinks -->
+
+        <!-- Start Hidden Mobile NavLinks -->
+        <div id="menu"
+            class="hidden fixed inset-0 z-20 flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-24 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue">
+            <div class="w-full py-3 text-center"><a href="#features" class="block hover:text-softRed">Features</a></div>
+            <div class="w-full py-3 text-center"><a href="#download" class="block hover:text-softRed">Download</a></div>
+            <div class="w-full py-3 text-center"><a href="#faq" class="block hover:text-softRed">FAQ</a></div>
+            <div class="w-full py-3 text-center"><a href="#login" class="block hover:text-softRed">Login</a></div>
+        </div>
+        <!-- End Hidden Mobile NavLinks -->
+
     </nav>
     <!-- ========== End Navigation ========== -->
 
@@ -540,7 +558,7 @@
 
 
     <!-- ========== ALL SCRIPTS ========== -->
-    <script src="src/assets/js/script.js" defer></script>
+    <script src="dist/assets/js/script.js" defer></script>
 </body>
 
 </html>
