@@ -36,12 +36,12 @@ const logo = document.getElementById("logo");
 
 btn.addEventListener("click", navToggle);
 
-// Change the logo if the meni is open or close
+// Change the logo if the menu is open or close
 function dynamicLogo() {
   if (menu.classList.contains("flex")) {
-    logo.setAttribute("src", "../../../images/logo-bookmark-footer.svg");
+    logo.setAttribute("src", "images/logo-bookmark-footer.svg");
   } else {
-    logo.setAttribute("src", "../../../images/logo-bookmark.svg");
+    logo.setAttribute("src", "images/logo-bookmark.svg");
   }
 }
 
